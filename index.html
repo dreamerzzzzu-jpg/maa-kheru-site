@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Maa Kheru</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <section id="passwordScreen" class="screen password-screen">
+      <div class="panel">
+        <h1>Maa Kheru</h1>
+        <form id="passwordForm">
+          <input id="passwordInput" type="password" placeholder="Password" aria-label="Password" required>
+          <button type="submit">Enter</button>
+          <p id="message" class="message"></p>
+        </form>
+      </div>
+    </section>
+
+    <section id="landingScreen" class="screen landing-screen hidden">
+      <div class="landing-content">
+        <p class="small-title">Maa Kheru</p>
+        <h2>You were not invited. You were remembered.</h2>
+        <button class="request-button" type="button">Request Entry</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
