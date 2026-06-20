@@ -1,3 +1,10 @@
+Exact file path edited:
+
+```text
+C:\Users\furka\Documents\Codex\2026-06-20\desktop-maa-kheru-site\style.css
+```
+
+```css
 :root {
   --black: #000000;
   --deep-black: #070604;
@@ -559,3 +566,4 @@ h3 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 }
+```
